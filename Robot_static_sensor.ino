@@ -61,7 +61,7 @@ void staticSensor(){
  /*Serial.println(distance);
  Serial.println( " cm");*/
   
-  // Turn the motor 1 and 2 clockwise
+  // Turn the motor 1 and 2 
   motor1->run(FORWARD); 
   motor2->run(FORWARD);
   
@@ -78,9 +78,9 @@ void staticSensor(){
   motor1->run(RELEASE); 
   motor2->run(RELEASE); 
   delay(100);
-  // Turn the motor 2 clockwise
+  // Turn the motor 2 
   motor2->run(BACKWARD);
-  // Turn the motor 1 clockwise
+  // Turn the motor 1 
   motor1->run(FORWARD); 
   // Wait 5 seconds
   delay(500); 
